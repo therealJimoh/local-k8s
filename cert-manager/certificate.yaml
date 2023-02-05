@@ -1,0 +1,12 @@
+apiVersion: cert-manager.io/v1
+kind: Certificate
+metadata:
+  name: dogbreed-app
+  namespace: default
+spec:
+  dnsNames:
+    - app-127-0-0-1.nip.io
+  secretName: dogbreed-app-tls
+  issuerRef:
+    name: letsencrypt-cluster-issuer
+    kind: ClusterIssuer
