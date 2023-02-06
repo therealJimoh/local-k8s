@@ -37,18 +37,3 @@ spec:
             requests:
               cpu: 100m
               memory: 128Mi
-
----
-apiVersion: v1
-kind: Service
-metadata:
-  name: dogbreed-service
-spec:
-  type: NodePort
-  selector:
-    app: dogbreed-app
-  ports:
-    - port: 4000
-      targetPort: 80
-      protocol: TCP
-      name: http
