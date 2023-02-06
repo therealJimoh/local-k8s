@@ -69,6 +69,7 @@ You can now access the app via: app-127-0-0-1.nip.io
 
 
 # Continuous Deployment Best Practices
+
 ### *Describe your approach to set up a CD solution for a Kubernetes environment, where there is a need to serve five teams of developers that can’t have direct kubectl access to the cluster and maintain their autonomy to deploy and see the production environment for debugging purposes.*
 ### 1. *How would you manage secrets inside?*  
 ### 2. *What tooling would you use?*
