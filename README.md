@@ -88,7 +88,7 @@ Grafana, in conjunction with monitoring solutions like Prometheus, offers real-t
 Managing secrets effectively involves the use of various tools and techniques, as secrets typically hold sensitive information such as passwords and encryption keys, which must be protected. Some of the tools I would use include:
 
 - Harshicorp vault a widely used open-source secret management tool that integrates with Kubernetes. It offers secure storage, efficient management, and convenient access to secrets for multiple applications and services. It also come easy to integrate with Terraform for Infrastructure as Code.
-- Using the public cloud secrets management solutions, such as AWS Secrets Manager or Google Cloud Secrets Manager, to manage secrets in Kubernetes clusters. At my current role, I my team utilize AWS secret manager.
+- Using the public cloud secrets management solutions, such as AWS Secrets Manager or Google Cloud Secrets Manager, to manage secrets in Kubernetes clusters. At my current role, I and my team utilize AWS secret manager.
 
 
 ### *Describe your approach for deploying and managing “Addons” applications that enable, automate or facilitate setups on Kubernetes.*
@@ -101,5 +101,5 @@ To ensure that I have a clear understanding of the setup and configuration, I cr
 
 Security is a top priority for me when deploying and managing Addons applications. I take steps to ensure that the applications are secure and protected against attacks or exploits. I also consider the need for regular updates and upgrades to keep the applications running smoothly and efficiently.
 
-In conclusion, my top priority are security, stability, scalability and high availability.
+In conclusion, my top priorities are security, stability, scalability and high availability.
 
